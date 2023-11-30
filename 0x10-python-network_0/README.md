@@ -1,21 +1,51 @@
-Python - Network #0
-Resources:
-Bash Python Scripting Back-end API Http Verbs
+0x10. Python - Network #0
 
-Questions	Answers
-What is URL	known for it's name uniform resource identifier, it specifies the location of a web resource on a computer
-What is Http	Hyper text transfer protocol, an application protocol used in the internet for the web
-How to read a Url	https://www.isaacajibola.tech protocol name is https subdomain: www domain: isaacajibola.tech and https://www.isaacajibola.tech/login/login.html resource path: /login/login.html
-The scheme for a HTTP URL	This is the part that indicates the protocol being used, usually http
-What a domain name is	This is the part after the www or double slash
-What a sub-domain is	This is the part before the sub domain usually www
-How to define a port number in a URL	To define a port number in a url you can include it after the domain name or ip address it would look like this www.isaacajiboola.tech:8080/login 8080 is the port number
-What a query string is	this is a string containing the passed data to the web server in the url it looks like this https://www.isaacajibola.tech/search?query=programming&category=tech
-What an HTTP request is	This is a message sent by a client to a web server to request a specific resource.
-What an HTTP response is	This is the response/message sent by the server to the client in response to a http request
-What HTTP headers are	Headers are additional information sent along with an http response.
-What the HTTP message body is	This is the optional data part of an http request or response
-What an HTTP request method is	These are methods that specifies the action to be performed on a resource
-What an HTTP response status code is	These are usually 3 digit codes sent by the server to indicate the outcome of the requested operation
-What an HTTP Cookie is	This is a small piece of data that a web server sends to user's web browser
-How to make a request with cURL	Command line URL is a command-line tool and library for making https requests.
+Resources
+Read or watch:
+
+HTTP (HyperText Transfer Protocol) (except: “TRACE” Request Method, “CONNECT” Request Method, Language Negotiation and “Options MultiView” and Character Set Negotiation)
+HTTP Cookies
+Learning Objectives
+At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
+
+General
+What a URL is
+What HTTP is
+How to read a URL
+The scheme for a HTTP URL
+What a domain name is
+What a sub-domain is
+How to define a port number in a URL
+What a query string is
+What an HTTP request is
+What an HTTP response is
+What HTTP headers are
+What the HTTP message body is
+What an HTTP request method is
+What an HTTP response status code is
+What an HTTP Cookie is
+How to make a request with cURL
+What happens when you type google.com in your browser (Application level)
+Copyright - Plagiarism
+You are tasked to come up with solutions for the tasks below yourself to meet with the above learning objectives.
+You will not be able to meet the objectives of this or any following project by copying and pasting someone else’s work.
+You are not allowed to publish any content of this project.
+Any form of plagiarism is strictly forbidden and will result in removal from the program.
+Requirements
+General
+Allowed editors: vi, vim, emacs
+- A README.md file, at the root of the folder of the project, is mandatory
+All your scripts will be tested on Ubuntu 20.04 LTS
+All your Bash scripts should be exactly 3 lines long (wc -l file should print 3)
+All your files should end with a new line
+All your files must be executable
+The first line of all your bash files should be exactly #!/bin/bash
+The second line of all your Bash scripts should be a comment explaining what is the script doing
+All curl commands must have the option -s (silent mode)
+All your files will be interpreted/compiled on Ubuntu 20.04 LTS using python3 (version 3.8.5)
+The first line of all your Python files should be exactly #!/usr/bin/python3
+Your code should use the pycodestyle (version 2.8.*)
+All your modules should be documented: python3 -c 'print(__import__("my_module").__doc__)'
+All your classes should be documented: python3 -c 'print(__import__("my_module").MyClass.__doc__)'
+All your functions (inside and outside a class) should be documented: python3 -c 'print(__import__("my_module").my_function.__doc__)' and python3 -c 'print(__import__("my_module").MyClass.my_function.__doc__)'
+A documentation is not a simple word, it’s a real sentence explaining what’s the purpose of the module, class or method (the length of it will be verified)
